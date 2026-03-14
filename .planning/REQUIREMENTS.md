@@ -98,38 +98,38 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| CANV-01 | — | Pending |
-| CANV-02 | — | Pending |
-| CANV-03 | — | Pending |
-| CANV-04 | — | Pending |
-| CANV-05 | — | Pending |
-| TODO-01 | — | Pending |
-| TODO-02 | — | Pending |
-| TODO-03 | — | Pending |
-| TODO-04 | — | Pending |
-| EST-01 | — | Pending |
-| EST-02 | — | Pending |
-| EST-03 | — | Pending |
-| EST-04 | — | Pending |
-| SCHED-01 | — | Pending |
-| SCHED-02 | — | Pending |
-| SCHED-03 | — | Pending |
-| SCHED-04 | — | Pending |
-| BLOCK-01 | — | Pending |
-| BLOCK-02 | — | Pending |
-| BLOCK-03 | — | Pending |
-| CAL-01 | — | Pending |
-| CAL-02 | — | Pending |
-| CAL-03 | — | Pending |
-| CAL-04 | — | Pending |
-| PREF-01 | — | Pending |
-| PREF-02 | — | Pending |
+| CANV-01 | Phase 2 | Pending |
+| CANV-02 | Phase 2 | Pending |
+| CANV-03 | Phase 2 | Pending |
+| CANV-04 | Phase 2 | Pending |
+| CANV-05 | Phase 2 | Pending |
+| TODO-01 | Phase 3 | Pending |
+| TODO-02 | Phase 3 | Pending |
+| TODO-03 | Phase 3 | Pending |
+| TODO-04 | Phase 3 | Pending |
+| EST-01 | Phase 4 | Pending |
+| EST-02 | Phase 4 | Pending |
+| EST-03 | Phase 4 | Pending |
+| EST-04 | Phase 4 | Pending |
+| SCHED-01 | Phase 5 | Pending |
+| SCHED-02 | Phase 5 | Pending |
+| SCHED-03 | Phase 5 | Pending |
+| SCHED-04 | Phase 5 | Pending |
+| CAL-01 | Phase 6 | Pending |
+| CAL-02 | Phase 6 | Pending |
+| CAL-03 | Phase 6 | Pending |
+| CAL-04 | Phase 6 | Pending |
+| BLOCK-01 | Phase 7 | Pending |
+| BLOCK-02 | Phase 7 | Pending |
+| BLOCK-03 | Phase 7 | Pending |
+| PREF-01 | Phase 8 | Pending |
+| PREF-02 | Phase 8 | Pending |
 
 **Coverage:**
 - v1 requirements: 26 total
-- Mapped to phases: 0
-- Unmapped: 26 ⚠️
+- Mapped to phases: 26
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-03-13*
-*Last updated: 2026-03-13 after initial definition*
+*Last updated: 2026-03-13 after roadmap creation*
