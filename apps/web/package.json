@@ -1,0 +1,27 @@
+{
+  "name": "@atrium/web",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "elysia": "latest",
+    "@elysiajs/eden": "latest",
+    "@tanstack/react-start": "latest",
+    "@tanstack/react-router": "latest",
+    "@vitejs/plugin-react": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "vite": "latest",
+    "vite-tsconfig-paths": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@atrium/api": "workspace:*"
+  }
+}
