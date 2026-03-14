@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 01-foundation-01-01-PLAN.md
-last_updated: "2026-03-14T19:33:58.392Z"
+stopped_at: Completed 01-foundation-01-02-PLAN.md
+last_updated: "2026-03-14T19:37:24.392Z"
 last_activity: 2026-03-13 — Roadmap created (8 phases, 26/26 requirements mapped)
 progress:
   total_phases: 8
   completed_phases: 0
   total_plans: 3
-  completed_plans: 1
+  completed_plans: 2
   percent: 0
 ---
 
@@ -51,6 +51,7 @@ Progress: [░░░░░░░░░░] 0%
 
 *Updated after each plan completion*
 | Phase 01-foundation P01 | 3 | 2 tasks | 19 files |
+| Phase 01-foundation P02 | 5 | 1 tasks | 6 files |
 
 ## Accumulated Context
 
@@ -67,6 +68,8 @@ Recent decisions affecting current work:
 - [Phase 01-foundation]: WAL mode test accepts wal or memory — SQLite in-memory DBs cannot use WAL mode; PRAGMA still correct for file-based DBs
 - [Phase 01-foundation]: .gitignore drizzle/ changed to /drizzle/ so packages/db/drizzle migration files are tracked by git
 - [Phase 01-foundation]: drizzle-kit generate used for explicit migration files rather than push — production safety
+- [Phase 01-foundation]: elysia uses 'latest' not 'catalog:' in apps/api — Bun 1.2.18 does not support catalog: protocol; workspace hoisting achieves same deduplication
+- [Phase 01-foundation]: @atrium/db declared as dependency in apps/api/package.json but not imported yet — Phase 2 will add DB routes
 
 ### Pending Todos
 
@@ -80,6 +83,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-14T19:33:58.390Z
-Stopped at: Completed 01-foundation-01-01-PLAN.md
+Last session: 2026-03-14T19:37:24.390Z
+Stopped at: Completed 01-foundation-01-02-PLAN.md
 Resume file: None
