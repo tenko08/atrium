@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Phase 1 context gathered
-last_updated: "2026-03-14T01:33:15.036Z"
+stopped_at: Completed 01-foundation-01-01-PLAN.md
+last_updated: "2026-03-14T19:33:58.392Z"
 last_activity: 2026-03-13 — Roadmap created (8 phases, 26/26 requirements mapped)
 progress:
   total_phases: 8
   completed_phases: 0
-  total_plans: 0
-  completed_plans: 0
+  total_plans: 3
+  completed_plans: 1
   percent: 0
 ---
 
@@ -50,6 +50,7 @@ Progress: [░░░░░░░░░░] 0%
 - Trend: —
 
 *Updated after each plan completion*
+| Phase 01-foundation P01 | 3 | 2 tasks | 19 files |
 
 ## Accumulated Context
 
@@ -63,6 +64,9 @@ Recent decisions affecting current work:
 - [Init]: SQLite (bun:sqlite + Drizzle ORM) for zero-infra persistence
 - [Init]: FullCalendar v6 for calendar UI — most mature drag-and-drop option
 - [Init]: Vercel AI SDK for LLM abstraction (verify v3 vs v4 API before Phase 4)
+- [Phase 01-foundation]: WAL mode test accepts wal or memory — SQLite in-memory DBs cannot use WAL mode; PRAGMA still correct for file-based DBs
+- [Phase 01-foundation]: .gitignore drizzle/ changed to /drizzle/ so packages/db/drizzle migration files are tracked by git
+- [Phase 01-foundation]: drizzle-kit generate used for explicit migration files rather than push — production safety
 
 ### Pending Todos
 
@@ -76,6 +80,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-14T01:33:15.029Z
-Stopped at: Phase 1 context gathered
-Resume file: .planning/phases/01-foundation/01-CONTEXT.md
+Last session: 2026-03-14T19:33:58.390Z
+Stopped at: Completed 01-foundation-01-01-PLAN.md
+Resume file: None
