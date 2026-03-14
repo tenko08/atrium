@@ -1,0 +1,13 @@
+{
+  "name": "atrium",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "bun run --parallel --filter './apps/*' dev",
+    "build": "bun run --filter './apps/*' build",
+    "test": "bun test"
+  },
+  "catalog": {
+    "elysia": "latest"
+  }
+}
