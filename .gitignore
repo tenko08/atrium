@@ -4,4 +4,5 @@ dist/
 *.db
 *.db-wal
 *.db-shm
-drizzle/
+# Drizzle migration output at workspace root (not packages/db/drizzle which must be committed)
+/drizzle/
