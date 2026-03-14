@@ -129,3 +129,7 @@ None - no external service configuration required. The `.env` file with placehol
 - CORS is pre-configured to only allow requests from localhost:3000
 - `@atrium/db` declared as dependency — DB routes can be added in Phase 2 by importing db from `@atrium/db`
 - `.env.example` committed; `.env` with placeholders exists locally (gitignored)
+
+## Self-Check: PASSED
+
+All 6 implementation files confirmed on disk. Both commits (`3759ae9`, `b1a77ee`) confirmed in git log.
