@@ -13,7 +13,7 @@ Atrium is built in 8 tightly-scoped phases that mirror the architecture's depend
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation** - Monorepo scaffold, SQLite schema, Eden Treaty wiring, dev environment (completed 2026-03-14)
-- [ ] **Phase 2: Canvas Sync** - Connect to Canvas API, pull all assignments with pagination and due-date overrides
+- [x] **Phase 2: Canvas Sync** - Connect to Canvas API, pull all assignments with pagination and due-date overrides (completed 2026-04-03)
 - [ ] **Phase 3: Todo List** - Browser-visible assignment list with sync status and manual task creation
 - [ ] **Phase 4: Time Estimator** - LLM-powered duration estimates with override and confidence display
 - [ ] **Phase 5: Schedule Engine** - Greedy deadline-aware auto-scheduler with deadline conflict warnings
@@ -149,7 +149,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 3/3 | Complete   | 2026-03-14 |
-| 2. Canvas Sync | 2/3 | In Progress|  |
+| 2. Canvas Sync | 3/3 | Complete   | 2026-04-03 |
 | 3. Todo List | 0/? | Not started | - |
 | 4. Time Estimator | 0/? | Not started | - |
 | 5. Schedule Engine | 0/? | Not started | - |
