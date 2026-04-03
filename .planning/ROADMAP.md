@@ -34,9 +34,9 @@ Decimal phases appear between their surrounding integers in numeric order.
   4. Canvas API token is read from `.env` server-side and never exposed to the browser
 **Plans**: 3 plans
 Plans:
-- [x] 01-01-PLAN.md — Monorepo scaffold + @atrium/db full 6-table Drizzle schema with WAL mode
-- [x] 01-02-PLAN.md — ElysiaJS API server with CORS, health route, and Eden Treaty type export
-- [x] 01-03-PLAN.md — TanStack Start frontend with Eden Treaty client and end-to-end verification
+- [ ] 01-01-PLAN.md — Monorepo scaffold + @atrium/db full 6-table Drizzle schema with WAL mode
+- [ ] 01-02-PLAN.md — ElysiaJS API server with CORS, health route, and Eden Treaty type export
+- [ ] 01-03-PLAN.md — TanStack Start frontend with Eden Treaty client and end-to-end verification
 
 ### Phase 2: Canvas Sync
 **Goal**: Users can connect their Canvas account and have all assignments pulled into the app automatically
@@ -50,9 +50,9 @@ Plans:
   5. User can press a "Sync Now" button to pull the latest Canvas data at any time
 **Plans**: 3 plans
 Plans:
-- [ ] 02-01-PLAN.md — Schema migration (syncStatus + canvas_id unique index) and Canvas service module with pagination, override resolution, and upsert
-- [ ] 02-02-PLAN.md — Elysia sync route, assignments route, credentials-status route with tests and registration
-- [ ] 02-03-PLAN.md — Frontend sync UI: auto-sync, Sync Now button, credential blocking screen, sync-status dots
+- [ ] 01-01-PLAN.md — Monorepo scaffold + @atrium/db full 6-table Drizzle schema with WAL mode
+- [ ] 01-02-PLAN.md — ElysiaJS API server with CORS, health route, and Eden Treaty type export
+- [ ] 01-03-PLAN.md — TanStack Start frontend with Eden Treaty client and end-to-end verification
 
 ### Phase 3: Todo List
 **Goal**: Users can see all their Canvas assignments in the browser as a task list and create tasks that don't come from Canvas
@@ -149,7 +149,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 3/3 | Complete   | 2026-03-14 |
-| 2. Canvas Sync | 0/3 | Not started | - |
+| 2. Canvas Sync | 1/3 | In progress | - |
 | 3. Todo List | 0/? | Not started | - |
 | 4. Time Estimator | 0/? | Not started | - |
 | 5. Schedule Engine | 0/? | Not started | - |

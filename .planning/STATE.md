@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: planning
-stopped_at: Phase 2 context gathered
-last_updated: "2026-03-17T01:53:03.074Z"
-last_activity: 2026-03-13 — Roadmap created (8 phases, 26/26 requirements mapped)
+status: in-progress
+stopped_at: Completed 02-canvas-sync-02-01-PLAN.md
+last_updated: "2026-04-02T00:00:00Z"
+last_activity: 2026-04-02 — Phase 2 Plan 01 complete (schema + canvasService)
 progress:
   total_phases: 8
   completed_phases: 1
-  total_plans: 3
-  completed_plans: 3
-  percent: 0
+  total_plans: 4
+  completed_plans: 4
+  percent: 5
 ---
 
 # Project State
@@ -21,16 +21,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-13)
 
 **Core value:** Canvas assignments automatically become a realistic, time-blocked schedule that adapts when you're off-track, so nothing falls through the cracks before the deadline.
-**Current focus:** Phase 1 — Foundation
+**Current focus:** Phase 2 — Canvas Sync
 
 ## Current Position
 
-Phase: 1 of 8 (Foundation)
-Plan: 0 of ? in current phase
-Status: Ready to plan
-Last activity: 2026-03-13 — Roadmap created (8 phases, 26/26 requirements mapped)
+Phase: 2 of 8 (Canvas Sync)
+Plan: 1 of ? in current phase
+Status: In progress
+Last activity: 2026-04-02 — Phase 2 Plan 01 complete (schema + canvasService)
 
-Progress: [░░░░░░░░░░] 0%
+Progress: [█░░░░░░░░░] 5%
 
 ## Performance Metrics
 
@@ -53,6 +53,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 01-foundation P01 | 3 | 2 tasks | 19 files |
 | Phase 01-foundation P02 | 5 | 1 tasks | 6 files |
 | Phase 01-foundation P03 | 25min | 2 tasks | 10 files |
+| Phase 02-canvas-sync P01 | 25min | 2 tasks | 6 files |
 
 ## Accumulated Context
 
@@ -74,6 +75,10 @@ Recent decisions affecting current work:
 - [Phase 01-foundation]: vite.config.ts-only pattern used for TanStack Start (post-v1.121.0) — no app.config.ts
 - [Phase 01-foundation]: @atrium/api devDependency in apps/web — type-only import keeps CANVAS_API_TOKEN out of browser bundle
 - [Phase 01-foundation]: TanStack Start v1.166.11 import path fix required for server/router API changes since plan authoring
+- [Phase 02-canvas-sync]: Regular uniqueIndex on canvasId is correct for SQLite — each NULL is distinct so multiple manual assignments won't conflict
+- [Phase 02-canvas-sync]: syncStatus reset strategy: reset all canvas rows to 'unchanged' before upsert, then upsert sets correct status per row
+- [Phase 02-canvas-sync]: canvasFetchAll exported (not internal) to enable pagination integration testing
+- [Phase 02-canvas-sync]: drizzle-kit migrate CLI requires better-sqlite3 or @libsql/client — not usable in worktree; runtime migration via Drizzle's migrate() function is the correct approach
 
 ### Pending Todos
 
@@ -87,6 +92,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-17T01:53:03.064Z
-Stopped at: Phase 2 context gathered
-Resume file: .planning/phases/02-canvas-sync/02-CONTEXT.md
+Last session: 2026-04-02T00:00:00Z
+Stopped at: Completed 02-canvas-sync-02-01-PLAN.md
+Resume file: None

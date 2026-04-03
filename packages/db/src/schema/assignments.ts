@@ -1,4 +1,4 @@
-import { sqliteTable, text, integer } from 'drizzle-orm/sqlite-core'
+import { sqliteTable, text, integer, uniqueIndex } from 'drizzle-orm/sqlite-core'
 
 export const assignments = sqliteTable('assignments', {
   id:           integer('id').primaryKey({ autoIncrement: true }),
@@ -14,4 +14,7 @@ export const assignments = sqliteTable('assignments', {
   completedAt:  integer('completed_at'),      // unix ms
   createdAt:    integer('created_at').notNull().$defaultFn(() => Date.now()),
   updatedAt:    integer('updated_at').notNull().$defaultFn(() => Date.now()),
-})
+  syncStatus:   text('sync_status', { enum: ['new', 'updated', 'unchanged'] }),
+}, (table) => [
+  uniqueIndex('canvas_id_unique').on(table.canvasId),
+])
