@@ -7,11 +7,11 @@
 
 ### Canvas Integration
 
-- [ ] **CANV-01**: User can connect to Canvas by providing an API token and institution URL
+- [x] **CANV-01**: User can connect to Canvas by providing an API token and institution URL
 - [x] **CANV-02**: App reads all assignments across all active courses from Canvas, handling pagination correctly
 - [x] **CANV-03**: App reads assignment due dates with section override support (correct deadlines per student)
 - [x] **CANV-04**: App displays which assignments are new, updated, or unchanged since last sync
-- [ ] **CANV-05**: User can trigger a manual Canvas sync at any time
+- [x] **CANV-05**: User can trigger a manual Canvas sync at any time
 
 ### Todo List
 
@@ -98,11 +98,11 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| CANV-01 | Phase 2 | Pending |
+| CANV-01 | Phase 2 | Complete |
 | CANV-02 | Phase 2 | Complete (02-01) |
 | CANV-03 | Phase 2 | Complete (02-01) |
 | CANV-04 | Phase 2 | Complete (02-01) |
-| CANV-05 | Phase 2 | Pending |
+| CANV-05 | Phase 2 | Complete |
 | TODO-01 | Phase 3 | Pending |
 | TODO-02 | Phase 3 | Pending |
 | TODO-03 | Phase 3 | Pending |
