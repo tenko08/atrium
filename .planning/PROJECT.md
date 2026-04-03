@@ -12,7 +12,8 @@ Canvas assignments automatically become a realistic, time-blocked schedule that 
 
 ### Validated
 
-(None yet — ship to validate)
+- [x] Read assignments, due dates, and submission status from Canvas LMS *(Validated in Phase 02: canvas-sync)*
+- [x] Todo list view of all assignments with Canvas sync status *(Validated in Phase 02: canvas-sync)*
 
 ### Active
 
@@ -59,4 +60,4 @@ Canvas assignments automatically become a realistic, time-blocked schedule that 
 | Canvas as primary assignment source | User's institution uses Canvas | — Pending |
 
 ---
-*Last updated: 2026-03-13 after initialization*
+*Last updated: 2026-04-02 — Phase 02 complete (Canvas sync live)*
